@@ -1,0 +1,193 @@
+* {
+		box-sizing: border-box;
+		border-color: #F0F0F0;
+	}
+	.tablerow > div:nth-child(1) {
+		width: 5%;
+		border-left: none;
+	}
+	.tablerow > div:nth-child(2) {
+		width: 15%;
+	}
+	.tablerow > div:nth-child(3) {
+		width: 12%;
+	}
+	.tablerow > div:nth-child(4) {
+		width: 12%;
+	}
+	.tablerow > div:nth-child(5) {
+		width: 34%;
+	}
+	.tablerow > div:nth-child(6) {
+		width: 15%;
+	}
+	.tablerow > div:nth-child(7) {
+		width: 7%;
+	}
+
+	.tableheadercell::first-letter {
+        text-transform: uppercase;
+    }
+	.tableheadercell {
+		border-bottom: 2px solid #F0F0F0;
+		font-weight: bold;
+		color: #323232;
+	}
+	.tablecell {
+		padding: 10px 15px 10px 15px;
+		border-left: 2px solid #F0F0F0;
+		text-align: left;
+		vertical-align: text-top;
+	}
+	.tablerow {
+		display: flex;
+	}
+	.tablebody {
+		display: flex;
+		flex-direction: column;
+	}
+	.kontextmenu {
+		display: flex;
+		background-color: #F0F0F0;
+        font-size: 20px;
+	}
+	.button {
+		padding: 10px 15px 10px 15px;
+		display: flex;
+		text-align: left;
+		text-align-last: center;
+	}
+	.buttonicon {
+		color: red;
+		font-size: 20px;
+		text-align: left;
+		text-align-last: center;
+	}
+	button {
+		border: 1px solid transparent;
+		cursor: pointer;
+	}
+	.projektliste {
+		padding: 10px 20px 10px 10px;
+        font-size: 20px;
+	}
+	.projektdarstellung {
+		border: 2px solid #F0F0F0;
+        font-size: 20px;
+	}
+	.formularneu {
+		display: flex;
+	}
+	.hidden {
+		display: none;
+	}
+    .neuerProjekt {
+    	display: flex;
+        width: 100%;
+        flex-direction: column;
+	}
+    .leftGroup {
+    	width: 50%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .rightGroup {
+    	width: 50%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+	textarea {
+		font-size: 20px;
+		padding: 10px;
+		min-height: 200px;
+		max-height: 400px;
+		width: 100%;
+	}
+    form {
+        font-size: 20px;
+    }
+   	input[type='text'] {
+		border: 0px solid black;
+		border-bottom: 1px solid grey;
+		height: 30px;
+		font-size: 20px;
+		margin-right: 15px;
+	}
+   	input[type='date'] {
+    	height: 30px;
+		cursor: pointer;
+		font-size: 18px;
+		border: 0px solid black;
+		border-bottom: 1px solid grey;
+        margin-right: 15px;
+	}
+    input[type='submit'] {
+    	border: none;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .neuerProjektContainer {
+    	margin: 40px;
+        padding: 20px;
+        background-color: #F0F0F0;
+        width: 60%;
+		position: fixed;
+		top: 100px;
+		left: 100px;
+    }
+    label {
+    	margin-bottom: 5px;
+    }
+    .filern {
+        display: flex;
+        flex-direction: column;
+		border: none;
+    }
+    .ergebnisFiltern {
+    	margin: 40px;
+        padding: 20px;
+        background-color: #F0F0F0;
+        width: 30%;
+		position: fixed;
+		top: 100px;
+		left: 100px;
+    }
+    .topGroup {
+    	display: flex;
+		border: none;
+    }
+    .botGroup {
+    	display: flex;
+        justify-content: flex-end;
+		border: none;
+    }
+	.cancel {
+    	background-color: gray;
+        color: white;
+     	font-size: 20px;
+        margin-left: 10px;
+    }
+	.headLineNewProject {
+		margin-left: 30px;
+	}
+	.headLineFilter {
+		margin-left: 15px;
+	}
+	.jetztFiltern {
+		border: none;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+	}
+	.eintragAktualiserButton {
+		background-color: #F0F0F0;
+		margin: 3px;
+	}
+	.tablerow:hover {
+		background-color: #fce3e7;
+	}
