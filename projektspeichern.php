@@ -31,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // Wurde das Formular abgesendet? Me
         echo "Fehler: " . $sql . "<br>" . $mysqli->error;
     }
 
-    // Verbindung schließen
     $mysqli->close();
 }
 ?>
